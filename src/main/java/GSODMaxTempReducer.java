@@ -4,9 +4,7 @@ import org.apache.hadoop.mapreduce.Reducer;
 
 import java.io.IOException;
 
-/**
- * Created by Arpit on 2/20/2015.
- */
+
 public class GSODMaxTempReducer extends Reducer<Text, FloatWritable, Text, FloatWritable> {
 
     public void reduce(Text key, Iterable<FloatWritable> values, Context context) throws IOException, InterruptedException {

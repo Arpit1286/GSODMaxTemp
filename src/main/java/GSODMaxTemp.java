@@ -8,9 +8,7 @@ import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 import org.apache.hadoop.mapreduce.Job;
 
-/**
- * Created by Arpit on 2/20/2015.
- */
+
 public class GSODMaxTemp extends Configured implements Tool {
 
     @Override

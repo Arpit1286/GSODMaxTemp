@@ -6,9 +6,7 @@ import org.apache.hadoop.mapreduce.Mapper;
 
 import java.io.IOException;
 
-/**
- * Created by Arpit on 2/20/2015.
- */
+
 public class GSODMaxTempMapper extends Mapper<LongWritable, Text, Text, FloatWritable> {
     private GSODTempParser parser = new GSODTempParser();
 

@@ -1,8 +1,6 @@
 import org.apache.hadoop.io.Text;
 
-/**
- * Created by Arpit on 2/20/2015.
- */
+
 public class GSODTempParser {
     private static final int MISSING_TEMPERATURE = 99999;
     private String year;
