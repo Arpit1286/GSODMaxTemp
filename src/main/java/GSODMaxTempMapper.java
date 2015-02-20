@@ -16,7 +16,7 @@ public class GSODMaxTempMapper extends Mapper<LongWritable, Text, Text, FloatWri
     public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         parser.parse(value);
         if (parser.isValidTemperature()) {
-            context.write(new Text(parser.getyear()), new FloatWritable(parser.getAirTemperature()));
+            context.write(new Text(parser.getYear()), new FloatWritable(parser.getAirTemperature()));
         }
     }
 }

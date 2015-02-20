@@ -18,7 +18,7 @@ public class GSODTempParser {
 
     public boolean isValidTemperature() { return airTemperature != MISSING_TEMPERATURE;}
 
-    public String getyear() { return year;}
+    public String getYear() { return year;}
 
     public float getAirTemperature(){ return airTemperature;}
 
