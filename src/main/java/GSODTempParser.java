@@ -2,7 +2,7 @@ import org.apache.hadoop.io.Text;
 
 
 public class GSODTempParser {
-    private static final int MISSING_TEMPERATURE = 99999;
+    private static final float MISSING_TEMPERATURE = (float) 9999.9;
     private String year;
     private float airTemperature;
 
