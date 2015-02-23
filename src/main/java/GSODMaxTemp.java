@@ -29,8 +29,6 @@ public class GSODMaxTemp extends Configured implements Tool {
         job.setReducerClass(GSODMaxTempReducer.class);
         job.setCombinerClass(GSODMaxTempReducer.class);
 
-        job.setInputFormatClass(FileInputFormat.class);
-        job.setOutputFormatClass(FileOutputFormat.class);
 
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(FloatWritable.class);
